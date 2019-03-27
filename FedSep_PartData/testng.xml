@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="Successfully the login">
+		<classes>
+			<class name="PartData.loginPage" />
+		</classes>
+	</test>
+	<test name="Valding the homepage">
+		<classes>
+			<class name="PartData.landingPage" />
+		</classes>
+	</test>
+	<test name="Valding Part A">
+		<classes>
+			<class name="PartData.PartA" />
+		</classes>
+	</test>
+	<test name="Valding Part B">
+		<classes>
+			<class name="PartData.PartB" />
+		</classes>
+	</test>
+	<test name="Testing Part C">
+		<classes>
+			<class name="PartData.PartC" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
