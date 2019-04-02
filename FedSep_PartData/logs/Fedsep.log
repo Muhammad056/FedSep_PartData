@@ -1,25 +1,53 @@
-[INFO ] 2019-03-27 10:38:44.243 [main] loginPage - driver is initialized
-[INFO ] 2019-03-27 10:38:45.039 [main] loginPage - Sucessfully login
-[INFO ] 2019-03-27 10:39:02.033 [main] loginPage - driver is initialized
-[INFO ] 2019-03-27 10:39:02.970 [main] loginPage - Sucessfully login
-[INFO ] 2019-03-27 10:39:05.005 [main] PartA - Start testing the part A Negative Testing 
-[INFO ] 2019-03-27 10:39:07.408 [main] PartA - Start testing the part A Postive Testing 
-[INFO ] 2019-03-27 10:39:08.688 [main] PartA - Part A successfull passed 
-[INFO ] 2019-03-27 10:39:16.056 [main] loginPage - driver is initialized
-[INFO ] 2019-03-27 10:39:16.937 [main] loginPage - Sucessfully login
-[INFO ] 2019-03-27 10:39:19.255 [main] PartB - Start testing the part B Negative Testing 
-[INFO ] 2019-03-27 10:39:22.085 [main] PartB - Start testing the part B Postive Testing 
-[INFO ] 2019-03-27 10:39:29.636 [main] PartB - https://egovtest.eeoc.gov/FedSep/jsp/secure/partdata715B.jsf?currentPartPage=B
-[INFO ] 2019-03-27 10:39:29.636 [main] PartB - Part B successfull passed 
-[INFO ] 2019-03-27 10:39:37.073 [main] loginPage - driver is initialized
-[INFO ] 2019-03-27 10:39:37.887 [main] loginPage - Sucessfully login
-[INFO ] 2019-03-27 10:39:39.897 [main] PartC - Start the negative test
-[INFO ] 2019-03-27 10:39:44.139 [main] PartC - Passed the negative test and verfiy all the Error message
-[INFO ] 2019-03-27 10:39:44.139 [main] PartC - Start testing the postive testing
-[INFO ] 2019-03-27 10:39:46.994 [main] PartC - Postive testing have passed
-[INFO ] 2019-03-27 10:39:47.089 [main] PartC - Verify the contract have been added
-[INFO ] 2019-03-27 10:39:48.244 [main] PartC - Contract have been delete
-[INFO ] 2019-03-27 10:39:50.133 [main] PartC - Verify all the error message for add official
-[INFO ] 2019-03-27 10:39:55.875 [main] PartC - Successfully added the officials
-[INFO ] 2019-03-27 10:39:59.106 [main] PartC - verify the add officals
-[INFO ] 2019-03-27 10:40:00.169 [main] PartC - delete the contract
+[INFO ] 2019-04-02 09:25:22.833 [main] loginPage - driver is initialized
+[INFO ] 2019-04-02 09:25:23.965 [main] loginPage - Sucessfully login
+[INFO ] 2019-04-02 09:25:44.503 [main] loginPage - driver is initialized
+[INFO ] 2019-04-02 09:25:46.344 [main] loginPage - Sucessfully login
+[INFO ] 2019-04-02 09:25:48.565 [main] PartA - Start testing the part A Negative Testing 
+[INFO ] 2019-04-02 09:25:51.527 [main] PartA - Start testing the part A Postive Testing 
+[INFO ] 2019-04-02 09:25:52.838 [main] PartA - Part A successfull passed 
+[INFO ] 2019-04-02 09:26:01.133 [main] loginPage - driver is initialized
+[INFO ] 2019-04-02 09:26:02.272 [main] loginPage - Sucessfully login
+[INFO ] 2019-04-02 09:26:04.416 [main] PartB - Start testing the part B Negative Testing 
+[INFO ] 2019-04-02 09:26:07.234 [main] PartB - Start testing the part B Postive Testing 
+[INFO ] 2019-04-02 09:26:14.999 [main] PartB - https://egovtest.eeoc.gov/FedSep/jsp/secure/partdata715B.jsf?currentPartPage=B
+[INFO ] 2019-04-02 09:26:14.999 [main] PartB - Part B successfull passed 
+[INFO ] 2019-04-02 09:26:23.932 [main] loginPage - driver is initialized
+[INFO ] 2019-04-02 09:26:25.033 [main] loginPage - Sucessfully login
+[INFO ] 2019-04-02 09:26:27.248 [main] PartC - Start the negative test
+[INFO ] 2019-04-02 09:26:31.347 [main] PartC - Passed the negative test and verfiy all the Error message
+[INFO ] 2019-04-02 09:26:31.351 [main] PartC - Start testing the postive testing
+[INFO ] 2019-04-02 09:26:34.130 [main] PartC - Postive testing have passed
+[INFO ] 2019-04-02 09:26:34.243 [main] PartC - Verify the contract have been added
+[INFO ] 2019-04-02 09:26:35.586 [main] PartC - Contract have been delete
+[INFO ] 2019-04-02 09:26:37.403 [main] PartC - Verify all the error message for add official
+[INFO ] 2019-04-02 09:26:43.171 [main] PartC - Successfully added the officials
+[INFO ] 2019-04-02 09:26:46.431 [main] PartC - verify the add officals
+[INFO ] 2019-04-02 09:26:47.783 [main] PartC - delete the contract
+[INFO ] 2019-04-02 09:30:03.693 [main] loginPage - driver is initialized
+[INFO ] 2019-04-02 09:30:04.769 [main] loginPage - Sucessfully login
+[INFO ] 2019-04-02 09:30:24.781 [main] loginPage - driver is initialized
+[INFO ] 2019-04-02 09:30:25.918 [main] loginPage - Sucessfully login
+[INFO ] 2019-04-02 09:30:28.071 [main] PartA - Start testing the part A Negative Testing 
+[INFO ] 2019-04-02 09:30:30.589 [main] PartA - Start testing the part A Postive Testing 
+[INFO ] 2019-04-02 09:30:40.154 [main] loginPage - driver is initialized
+[INFO ] 2019-04-02 09:30:41.286 [main] loginPage - Sucessfully login
+[INFO ] 2019-04-02 09:30:43.406 [main] PartB - Start testing the part B Negative Testing 
+[INFO ] 2019-04-02 09:30:46.319 [main] PartB - Start testing the part B Postive Testing 
+[INFO ] 2019-04-02 09:31:02.544 [main] loginPage - driver is initialized
+[INFO ] 2019-04-02 09:31:03.776 [main] loginPage - Sucessfully login
+[INFO ] 2019-04-02 09:31:05.994 [main] PartC - Start the negative test
+[INFO ] 2019-04-02 09:31:10.086 [main] PartC - Passed the negative test and verfiy all the Error message
+[INFO ] 2019-04-02 09:31:10.095 [main] PartC - Start testing the postive testing
+[INFO ] 2019-04-02 09:31:12.864 [main] PartC - Postive testing have passed
+[INFO ] 2019-04-02 09:31:12.990 [main] PartC - Verify the contract have been added
+[INFO ] 2019-04-02 09:31:14.398 [main] PartC - Contract have been delete
+[INFO ] 2019-04-02 09:31:16.210 [main] PartC - Verify all the error message for add official
+[INFO ] 2019-04-02 09:31:22.333 [main] PartC - Successfully added the officials
+[INFO ] 2019-04-02 09:31:25.574 [main] PartC - verify the add officals
+[INFO ] 2019-04-02 09:31:26.881 [main] PartC - delete the contract
+[INFO ] 2019-04-02 09:39:47.160 [main] loginPage - driver is initialized
+[INFO ] 2019-04-02 09:39:48.363 [main] loginPage - Sucessfully login
+[INFO ] 2019-04-02 09:40:08.342 [main] loginPage - driver is initialized
+[INFO ] 2019-04-02 09:40:09.435 [main] loginPage - Sucessfully login
+[INFO ] 2019-04-02 09:40:11.714 [main] PartA - Start testing the part A Negative Testing 
+[INFO ] 2019-04-02 09:40:24.214 [main] PartA - Start testing the part A Postive Testing 

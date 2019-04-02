@@ -27,8 +27,8 @@ public class partC {
 	By errorMessageGrade = By.xpath("//span[contains(text(),'Enter Grade')]");
 	By errorMessagePhoneNumber = By.xpath("//span[contains(text(),'Enter Phone Number')]");
 	By errorMessageEmailAddress = By.xpath("//span[contains(text(),'Enter Email Address')]");
-	By Add2 = By.id("partC2:j_idt140");
-	By addOfficial = By.id("partC2:j_idt194");
+	By Add2 = By.xpath("(//span[contains(text(),'Add')])[2]");
+	By addOfficial = By.xpath("//span[contains(text(),'Save')]");
 	By Name = By.id("partC2:inNamenewPartCContact");
 	By Title = By.id("partC2:inTitlenewPartCContact");
 	By payPlan = By.id("partC2:inPlannewPartCContact");

@@ -61,7 +61,7 @@ public class PartA extends base {
 		l.getZipCode().sendKeys("20170");
 		l.getFipsCode().sendKeys("HPOO");
 		l.getaveButton().click();
-		Assert.assertEquals(l.getScuessfulMessage().getText(), "Saved Part A.");
+		Assert.assertEquals(l.getScuessfulMessage().getText(), "Saved Part A");
 		logger.info("Part A successfull passed ");
 
 	}

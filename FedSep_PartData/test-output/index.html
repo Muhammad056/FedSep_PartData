@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>D:\Users\MIFTIKH\workspace\test\FedSep_PartData\testng.xml</span>
+                    <span>D:\Users\MIFTIKH\git\FedSep_PartData\FedSep_PartData\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">15 methods,   15 passed</span>
+                    <span class="method-stats">15 methods, 2 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="PartData.PartA" hash-for-method="partA">partA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="PartData.PartB" hash-for-method="partB">partB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -142,17 +161,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="PartData.PartA" hash-for-method="partA">partA</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="PartData.PartA" hash-for-method="partA_NegativeTest">partA_NegativeTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="PartData.PartB" hash-for-method="partB">partB</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -187,6 +196,44 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">PartData.PartB</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="partB">
+                  </a> <!-- partB -->
+                  <span class="method-name">partB</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Saved Part B] but found [Saved Part B.]
+	at PartData.PartB.partB(PartB.java:62)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">PartData.PartA</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="partA">
+                  </a> <!-- partA -->
+                  <span class="method-name">partA</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Saved Part A] but found [Saved Part A.]
+	at PartData.PartA.partA(PartA.java:64)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -263,6 +310,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">PartData.PartB</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="partB_NegativeTest">
+                  </a> <!-- partB_NegativeTest -->
+                  <span class="method-name">partB_NegativeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">PartData.landingPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -278,21 +340,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">PartData.PartB</span>
+              <span class="class-name">PartData.PartA</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="partB">
-                  </a> <!-- partB -->
-                  <span class="method-name">partB</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="partB_NegativeTest">
-                  </a> <!-- partB_NegativeTest -->
-                  <span class="method-name">partB_NegativeTest</span>
+                  <a name="partA_NegativeTest">
+                  </a> <!-- partA_NegativeTest -->
+                  <span class="method-name">partA_NegativeTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -312,38 +367,20 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">PartData.PartA</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="partA">
-                  </a> <!-- partA -->
-                  <span class="method-name">partA</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="partA_NegativeTest">
-                  </a> <!-- partA_NegativeTest -->
-                  <span class="method-name">partA_NegativeTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Users\MIFTIKH\workspace\test\FedSep_PartData\testng.xml</span>
+            <span class="header-content">D:\Users\MIFTIKH\git\FedSep_PartData\FedSep_PartData\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;PartData.listerners&quot;/&gt;
+    &lt;listener class-name=&quot;resourcesss.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Successfully the login&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;PartData.loginPage&quot;/&gt;
@@ -422,68 +459,68 @@ data.addRows(15);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'partB')
 data.setCell(0, 2, 'PartData.PartB')
-data.setCell(0, 3, 7551);
+data.setCell(0, 3, 7584);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'addOfficals')
 data.setCell(1, 2, 'PartData.PartC')
-data.setCell(1, 3, 5742);
+data.setCell(1, 3, 6120);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'addOfficalss')
 data.setCell(2, 2, 'PartData.PartC')
-data.setCell(2, 3, 3231);
+data.setCell(2, 3, 3239);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'partC_NegativeTest')
 data.setCell(3, 2, 'PartData.PartC')
-data.setCell(3, 3, 3133);
+data.setCell(3, 3, 3019);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'partC')
-data.setCell(4, 2, 'PartData.PartC')
-data.setCell(4, 3, 2855);
+data.setCell(4, 1, 'partB_NegativeTest')
+data.setCell(4, 2, 'PartData.PartB')
+data.setCell(4, 3, 2911);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'partB_NegativeTest')
-data.setCell(5, 2, 'PartData.PartB')
-data.setCell(5, 3, 2831);
+data.setCell(5, 1, 'partC')
+data.setCell(5, 2, 'PartData.PartC')
+data.setCell(5, 3, 2771);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'partA_NegativeTest')
 data.setCell(6, 2, 'PartData.PartA')
-data.setCell(6, 3, 2391);
+data.setCell(6, 3, 2515);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'landingPage')
 data.setCell(7, 2, 'PartData.landingPage')
-data.setCell(7, 3, 1925);
+data.setCell(7, 3, 2087);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'addOffical')
 data.setCell(8, 2, 'PartData.PartC')
-data.setCell(8, 3, 1889);
+data.setCell(8, 3, 1810);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'partA')
-data.setCell(9, 2, 'PartData.PartA')
-data.setCell(9, 3, 1295);
+data.setCell(9, 1, 'deleteContract')
+data.setCell(9, 2, 'PartData.PartC')
+data.setCell(9, 3, 1406);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'deleteContract')
-data.setCell(10, 2, 'PartData.PartC')
-data.setCell(10, 3, 1155);
+data.setCell(10, 1, 'partA')
+data.setCell(10, 2, 'PartData.PartA')
+data.setCell(10, 3, 1358);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'partCErrorMessage')
+data.setCell(11, 1, 'deleteContracts')
 data.setCell(11, 2, 'PartData.PartC')
-data.setCell(11, 3, 1110);
+data.setCell(11, 3, 1306);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'deleteContracts')
+data.setCell(12, 1, 'partCErrorMessage')
 data.setCell(12, 2, 'PartData.PartC')
-data.setCell(12, 3, 1063);
+data.setCell(12, 3, 1072);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'loginPages')
 data.setCell(13, 2, 'PartData.loginPage')
-data.setCell(13, 3, 767);
+data.setCell(13, 3, 1038);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'VerifyContractAdded')
 data.setCell(14, 2, 'PartData.PartC')
-data.setCell(14, 3, 95);
+data.setCell(14, 3, 123);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -516,111 +553,115 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">loginPages</span>
-                <span class="method-start">6629 ms</span>
+                <span class="method-start">9833 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7401 ms</span>
+                <span class="method-start">10874 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">PartData.landingPage</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">8667 ms</span>
+                <span class="method-start">12328 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">landingPage</span>
-                <span class="method-start">15435 ms</span>
+                <span class="method-start">20013 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17362 ms</span>
+                <span class="method-start">22104 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">PartData.PartA</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">18713 ms</span>
+                <span class="method-start">23535 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">partA_NegativeTest</span>
-                <span class="method-start">27359 ms</span>
+                <span class="method-start">34167 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">partA</span>
-                <span class="method-start">29750 ms</span>
+                <span class="method-start">36686 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">31045 ms</span>
+                <span class="method-start">38307 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">PartData.PartB</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">32389 ms</span>
+                <span class="method-start">39770 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">partB_NegativeTest</span>
-                <span class="method-start">41611 ms</span>
+                <span class="method-start">49501 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">partB</span>
-                <span class="method-start">44442 ms</span>
+                <span class="method-start">52415 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">51993 ms</span>
+                <span class="method-start">60243 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">PartData.PartC</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">53290 ms</span>
+                <span class="method-start">61834 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">partC_NegativeTest</span>
-                <span class="method-start">62251 ms</span>
+                <span class="method-start">72093 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">partCErrorMessage</span>
-                <span class="method-start">65386 ms</span>
+                <span class="method-start">75115 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">partC</span>
-                <span class="method-start">66496 ms</span>
+                <span class="method-start">76194 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">VerifyContractAdded</span>
-                <span class="method-start">69351 ms</span>
+                <span class="method-start">78968 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">deleteContract</span>
-                <span class="method-start">69446 ms</span>
+                <span class="method-start">79094 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">addOffical</span>
-                <span class="method-start">70601 ms</span>
+                <span class="method-start">80502 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">addOfficals</span>
-                <span class="method-start">72490 ms</span>
+                <span class="method-start">82314 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">addOfficalss</span>
-                <span class="method-start">78232 ms</span>
+                <span class="method-start">88436 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">deleteContracts</span>
-                <span class="method-start">81463 ms</span>
+                <span class="method-start">91677 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">82526 ms</span>
+                <span class="method-start">92987 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="PartData.listerners"/>
+    <listener class-name="resourcesss.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Valding Part A(failed)">
     <classes>
-      <class name="PartData.PartC">
+      <class name="PartData.PartA">
         <methods>
-          <include name="initialize"/>
-          <include name="addOfficalss"/>
-          <include name="addOffical"/>
-          <include name="addOfficals"/>
+          <include name="partA"/>
           <include name="tearDown"/>
+          <include name="initialize"/>
         </methods>
-      </class> <!-- PartData.PartC -->
+      </class> <!-- PartData.PartA -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Valding Part A(failed) -->
+  <test thread-count="5" name="Valding Part B(failed)">
+    <classes>
+      <class name="PartData.PartB">
+        <methods>
+          <include name="partB"/>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- PartData.PartB -->
+    </classes>
+  </test> <!-- Valding Part B(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -55,7 +55,7 @@ return driver;
 public void getScreenshot(String result) throws IOException
 {
 	File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	FileUtils.copyFile(src, new File("D:\\Users\\MIFTIKH\\workspace\\test\\PartData\\Test\\"+result+"Screenshot.png"));
+	FileUtils.copyFile(src, new File("D:\\Users\\MIFTIKH\\OneDrive - EEOC\\_UPF\\Desktop\\ScreenShot\\"+result+" ScreenShot.png"));
 }
 
 }

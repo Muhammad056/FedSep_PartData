@@ -1,125 +1,207 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+<testng-results skipped="0" failed="2" ignored="0" total="15" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="83854" started-at="2019-03-27T14:38:37Z" finished-at="2019-03-27T14:40:01Z">
+  <suite name="Suite" duration-ms="94392" started-at="2019-04-02T13:29:53Z" finished-at="2019-04-02T13:31:28Z">
     <groups>
     </groups>
-    <test name="Successfully the login" duration-ms="8621" started-at="2019-03-27T14:38:37Z" finished-at="2019-03-27T14:38:46Z">
+    <test name="Successfully the login" duration-ms="12285" started-at="2019-04-02T13:29:53Z" finished-at="2019-04-02T13:30:06Z">
       <class name="PartData.loginPage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:PartData.loginPage@7f0eb4b4]" name="initialize" is-config="true" duration-ms="6606" started-at="2019-03-27T14:38:37Z" finished-at="2019-03-27T14:38:44Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:PartData.loginPage@6aeb35e6]" name="initialize" is-config="true" duration-ms="9805" started-at="2019-04-02T13:29:53Z" finished-at="2019-04-02T13:30:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="loginPages()[pri:0, instance:PartData.loginPage@7f0eb4b4]" name="loginPages" duration-ms="767" started-at="2019-03-27T14:38:44Z" finished-at="2019-03-27T14:38:45Z">
+        <test-method status="PASS" signature="loginPages()[pri:0, instance:PartData.loginPage@6aeb35e6]" name="loginPages" duration-ms="1038" started-at="2019-04-02T13:30:03Z" finished-at="2019-04-02T13:30:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPages -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:PartData.loginPage@7f0eb4b4]" name="tearDown" is-config="true" duration-ms="1220" started-at="2019-03-27T14:38:45Z" finished-at="2019-03-27T14:38:46Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PartData.loginPage@6aeb35e6]" name="tearDown" is-config="true" duration-ms="1408" started-at="2019-04-02T13:30:04Z" finished-at="2019-04-02T13:30:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- PartData.loginPage -->
     </test> <!-- Successfully the login -->
-    <test name="Valding the homepage" duration-ms="10015" started-at="2019-03-27T14:38:46Z" finished-at="2019-03-27T14:38:56Z">
+    <test name="Valding the homepage" duration-ms="11179" started-at="2019-04-02T13:30:06Z" finished-at="2019-04-02T13:30:17Z">
       <class name="PartData.landingPage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:PartData.landingPage@689604d9]" name="initialize" is-config="true" duration-ms="6767" started-at="2019-03-27T14:38:46Z" finished-at="2019-03-27T14:38:53Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:PartData.landingPage@55182842]" name="initialize" is-config="true" duration-ms="7685" started-at="2019-04-02T13:30:06Z" finished-at="2019-04-02T13:30:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="landingPage()[pri:0, instance:PartData.landingPage@689604d9]" name="landingPage" duration-ms="1925" started-at="2019-03-27T14:38:53Z" finished-at="2019-03-27T14:38:55Z">
+        <test-method status="PASS" signature="landingPage()[pri:0, instance:PartData.landingPage@55182842]" name="landingPage" duration-ms="2087" started-at="2019-04-02T13:30:13Z" finished-at="2019-04-02T13:30:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:PartData.landingPage@689604d9]" name="tearDown" is-config="true" duration-ms="1320" started-at="2019-03-27T14:38:55Z" finished-at="2019-03-27T14:38:56Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PartData.landingPage@55182842]" name="tearDown" is-config="true" duration-ms="1401" started-at="2019-04-02T13:30:16Z" finished-at="2019-04-02T13:30:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- PartData.landingPage -->
     </test> <!-- Valding the homepage -->
-    <test name="Valding Part A" duration-ms="13645" started-at="2019-03-27T14:38:56Z" finished-at="2019-03-27T14:39:10Z">
+    <test name="Valding Part A" duration-ms="16204" started-at="2019-04-02T13:30:17Z" finished-at="2019-04-02T13:30:33Z">
       <class name="PartData.PartA">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:PartData.PartA@2a65fe7c]" name="initialize" is-config="true" duration-ms="8645" started-at="2019-03-27T14:38:56Z" finished-at="2019-03-27T14:39:05Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:PartData.PartA@73a1e9a9]" name="initialize" is-config="true" duration-ms="10630" started-at="2019-04-02T13:30:17Z" finished-at="2019-04-02T13:30:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="partA_NegativeTest()[pri:0, instance:PartData.PartA@2a65fe7c]" name="partA_NegativeTest" duration-ms="2391" started-at="2019-03-27T14:39:05Z" finished-at="2019-03-27T14:39:07Z">
+        <test-method status="PASS" signature="partA_NegativeTest()[pri:0, instance:PartData.PartA@73a1e9a9]" name="partA_NegativeTest" duration-ms="2515" started-at="2019-04-02T13:30:28Z" finished-at="2019-04-02T13:30:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partA_NegativeTest -->
-        <test-method status="PASS" signature="partA()[pri:1, instance:PartData.PartA@2a65fe7c]" name="partA" duration-ms="1295" started-at="2019-03-27T14:39:07Z" finished-at="2019-03-27T14:39:08Z">
+        <test-method status="FAIL" signature="partA()[pri:1, instance:PartData.PartA@73a1e9a9]" name="partA" duration-ms="1358" started-at="2019-04-02T13:30:30Z" finished-at="2019-04-02T13:30:31Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Saved Part A] but found [Saved Part A.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Saved Part A] but found [Saved Part A.]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at PartData.PartA.partA(PartA.java:64)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partA -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:PartData.PartA@2a65fe7c]" name="tearDown" is-config="true" duration-ms="1313" started-at="2019-03-27T14:39:08Z" finished-at="2019-03-27T14:39:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PartData.PartA@73a1e9a9]" name="tearDown" is-config="true" duration-ms="1429" started-at="2019-04-02T13:30:32Z" finished-at="2019-04-02T13:30:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- PartData.PartA -->
     </test> <!-- Valding Part A -->
-    <test name="Valding Part B" duration-ms="20886" started-at="2019-03-27T14:39:10Z" finished-at="2019-03-27T14:39:30Z">
+    <test name="Valding Part B" duration-ms="22035" started-at="2019-04-02T13:30:33Z" finished-at="2019-04-02T13:30:55Z">
       <class name="PartData.PartB">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:PartData.PartB@459e9125]" name="initialize" is-config="true" duration-ms="9221" started-at="2019-03-27T14:39:10Z" finished-at="2019-03-27T14:39:19Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:PartData.PartB@1bb5a082]" name="initialize" is-config="true" duration-ms="9731" started-at="2019-04-02T13:30:33Z" finished-at="2019-04-02T13:30:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="partB_NegativeTest()[pri:0, instance:PartData.PartB@459e9125]" name="partB_NegativeTest" duration-ms="2831" started-at="2019-03-27T14:39:19Z" finished-at="2019-03-27T14:39:22Z">
+        <test-method status="PASS" signature="partB_NegativeTest()[pri:0, instance:PartData.PartB@1bb5a082]" name="partB_NegativeTest" duration-ms="2911" started-at="2019-04-02T13:30:43Z" finished-at="2019-04-02T13:30:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partB_NegativeTest -->
-        <test-method status="PASS" signature="partB()[pri:1, instance:PartData.PartB@459e9125]" name="partB" duration-ms="7551" started-at="2019-03-27T14:39:22Z" finished-at="2019-03-27T14:39:29Z">
+        <test-method status="FAIL" signature="partB()[pri:1, instance:PartData.PartB@1bb5a082]" name="partB" duration-ms="7584" started-at="2019-04-02T13:30:46Z" finished-at="2019-04-02T13:30:53Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Saved Part B] but found [Saved Part B.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Saved Part B] but found [Saved Part B.]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at PartData.PartB.partB(PartB.java:62)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partB -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:PartData.PartB@459e9125]" name="tearDown" is-config="true" duration-ms="1282" started-at="2019-03-27T14:39:29Z" finished-at="2019-03-27T14:39:30Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PartData.PartB@1bb5a082]" name="tearDown" is-config="true" duration-ms="1558" started-at="2019-04-02T13:30:54Z" finished-at="2019-04-02T13:30:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- PartData.PartB -->
     </test> <!-- Valding Part B -->
-    <test name="Testing Part C" duration-ms="30564" started-at="2019-03-27T14:39:30Z" finished-at="2019-03-27T14:40:01Z">
+    <test name="Testing Part C" duration-ms="32558" started-at="2019-04-02T13:30:55Z" finished-at="2019-04-02T13:31:28Z">
       <class name="PartData.PartC">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:PartData.PartC@7b2bbc3]" name="initialize" is-config="true" duration-ms="8960" started-at="2019-03-27T14:39:30Z" finished-at="2019-03-27T14:39:39Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:PartData.PartC@443118b0]" name="initialize" is-config="true" duration-ms="10258" started-at="2019-04-02T13:30:55Z" finished-at="2019-04-02T13:31:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="partC_NegativeTest()[pri:0, instance:PartData.PartC@7b2bbc3]" name="partC_NegativeTest" duration-ms="3133" started-at="2019-03-27T14:39:39Z" description="Testing the Negative Part C" finished-at="2019-03-27T14:39:43Z">
+        <test-method status="PASS" signature="partC_NegativeTest()[pri:0, instance:PartData.PartC@443118b0]" name="partC_NegativeTest" duration-ms="3019" started-at="2019-04-02T13:31:05Z" description="Testing the Negative Part C" finished-at="2019-04-02T13:31:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partC_NegativeTest -->
-        <test-method status="PASS" signature="partCErrorMessage()[pri:1, instance:PartData.PartC@7b2bbc3]" name="partCErrorMessage" duration-ms="1110" started-at="2019-03-27T14:39:43Z" finished-at="2019-03-27T14:39:44Z">
+        <test-method status="PASS" signature="partCErrorMessage()[pri:1, instance:PartData.PartC@443118b0]" name="partCErrorMessage" duration-ms="1072" started-at="2019-04-02T13:31:09Z" finished-at="2019-04-02T13:31:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partCErrorMessage -->
-        <test-method status="PASS" signature="partC()[pri:2, instance:PartData.PartC@7b2bbc3]" name="partC" duration-ms="2855" started-at="2019-03-27T14:39:44Z" finished-at="2019-03-27T14:39:46Z">
+        <test-method status="PASS" signature="partC()[pri:2, instance:PartData.PartC@443118b0]" name="partC" duration-ms="2771" started-at="2019-04-02T13:31:10Z" finished-at="2019-04-02T13:31:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partC -->
-        <test-method status="PASS" signature="VerifyContractAdded()[pri:3, instance:PartData.PartC@7b2bbc3]" name="VerifyContractAdded" duration-ms="95" started-at="2019-03-27T14:39:46Z" finished-at="2019-03-27T14:39:47Z">
+        <test-method status="PASS" signature="VerifyContractAdded()[pri:3, instance:PartData.PartC@443118b0]" name="VerifyContractAdded" duration-ms="123" started-at="2019-04-02T13:31:12Z" finished-at="2019-04-02T13:31:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyContractAdded -->
-        <test-method status="PASS" signature="deleteContract()[pri:4, instance:PartData.PartC@7b2bbc3]" name="deleteContract" duration-ms="1155" started-at="2019-03-27T14:39:47Z" finished-at="2019-03-27T14:39:48Z">
+        <test-method status="PASS" signature="deleteContract()[pri:4, instance:PartData.PartC@443118b0]" name="deleteContract" duration-ms="1406" started-at="2019-04-02T13:31:12Z" finished-at="2019-04-02T13:31:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteContract -->
-        <test-method status="PASS" signature="addOffical()[pri:5, instance:PartData.PartC@7b2bbc3]" name="addOffical" duration-ms="1889" started-at="2019-03-27T14:39:48Z" finished-at="2019-03-27T14:39:50Z">
+        <test-method status="PASS" signature="addOffical()[pri:5, instance:PartData.PartC@443118b0]" name="addOffical" duration-ms="1810" started-at="2019-04-02T13:31:14Z" finished-at="2019-04-02T13:31:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addOffical -->
-        <test-method status="PASS" signature="addOfficals()[pri:6, instance:PartData.PartC@7b2bbc3]" name="addOfficals" duration-ms="5742" started-at="2019-03-27T14:39:50Z" finished-at="2019-03-27T14:39:55Z">
+        <test-method status="PASS" signature="addOfficals()[pri:6, instance:PartData.PartC@443118b0]" name="addOfficals" duration-ms="6120" started-at="2019-04-02T13:31:16Z" finished-at="2019-04-02T13:31:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addOfficals -->
-        <test-method status="PASS" signature="addOfficalss()[pri:7, instance:PartData.PartC@7b2bbc3]" name="addOfficalss" duration-ms="3231" started-at="2019-03-27T14:39:55Z" finished-at="2019-03-27T14:39:59Z">
+        <test-method status="PASS" signature="addOfficalss()[pri:7, instance:PartData.PartC@443118b0]" name="addOfficalss" duration-ms="3239" started-at="2019-04-02T13:31:22Z" finished-at="2019-04-02T13:31:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addOfficalss -->
-        <test-method status="PASS" signature="deleteContracts()[pri:8, instance:PartData.PartC@7b2bbc3]" name="deleteContracts" duration-ms="1063" started-at="2019-03-27T14:39:59Z" finished-at="2019-03-27T14:40:00Z">
+        <test-method status="PASS" signature="deleteContracts()[pri:8, instance:PartData.PartC@443118b0]" name="deleteContracts" duration-ms="1306" started-at="2019-04-02T13:31:25Z" finished-at="2019-04-02T13:31:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteContracts -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:PartData.PartC@7b2bbc3]" name="tearDown" is-config="true" duration-ms="1328" started-at="2019-03-27T14:40:00Z" finished-at="2019-03-27T14:40:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PartData.PartC@443118b0]" name="tearDown" is-config="true" duration-ms="1402" started-at="2019-04-02T13:31:26Z" finished-at="2019-04-02T13:31:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -59,7 +59,7 @@ public class PartB extends base {
 		l.getTempEmpCount().sendKeys("300");
 		Thread.sleep(7000);
 		l.getSaveButton().click();
-		Assert.assertEquals(l.getSuccessFullMessage().getText(), "Saved Part B.");
+		Assert.assertEquals(l.getSuccessFullMessage().getText(), "Saved Part B");
 		
 		logger.info(driver.getCurrentUrl());
 		logger.info("Part B successfull passed ");
